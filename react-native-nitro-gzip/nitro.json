@@ -1,0 +1,19 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "nitrogzip"
+  ],
+  "ios": {
+    "iosModuleName": "NitroGzip"
+  },
+  "android": {
+    "androidNamespace": [
+      "nitrogzip"
+    ],
+    "androidCxxLibName": "NitroGzip"
+  },
+  "autolinking": {},
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
