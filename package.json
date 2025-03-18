@@ -1,0 +1,24 @@
+{
+  "name": "react-native-nitro-gzip",
+  "description": "react-native-nitro-gzip",
+  "author": "Cozy",
+  "license": "MIT",
+  "homepage": "https://github.com/cozy/react-native-nitro-gzip#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cozy/react-native-nitro-gzip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cozy/react-native-nitro-gzip/issues"
+  },
+  "private": true,
+  "scripts": {
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "workspaces": [
+    "react-native-nitro-gzip",
+    "example"
+  ]
+}
