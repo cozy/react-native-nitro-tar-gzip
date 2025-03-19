@@ -20,5 +20,8 @@
   "workspaces": [
     "react-native-nitro-gzip",
     "example"
-  ]
+  ],
+  "devDependencies": {
+    "@react-native-community/cli": "15.0.1"
+  }
 }
