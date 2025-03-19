@@ -136,5 +136,9 @@ dependencies {
 
   // Add a dependency on NitroModules
   implementation project(":react-native-nitro-modules")
+
+  // Depencies for Gzip and Tar
+  implementation "commons-io:commons-io:2.6"
+  implementation "org.apache.commons:commons-compress:1.1"
 }
 
