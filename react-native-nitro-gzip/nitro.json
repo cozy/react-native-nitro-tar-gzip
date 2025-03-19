@@ -12,7 +12,12 @@
     ],
     "androidCxxLibName": "NitroGzip"
   },
-  "autolinking": {},
+  "autolinking": {
+    "NitroGzip": {
+      "swift": "NitroGzip",
+      "kotlin": "NitroGzip"
+    }
+  },
   "ignorePaths": [
     "**/node_modules"
   ]
