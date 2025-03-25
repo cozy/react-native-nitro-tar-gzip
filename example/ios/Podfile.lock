@@ -34,6 +34,7 @@ PODS:
     - glog
     - hermes-engine
     - NitroModules
+    - NVHTarGzip
     - RCT-Folly (= 2024.11.18.00)
     - RCTRequired
     - RCTTypeSafety
@@ -76,6 +77,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - NVHTarGzip (1.0.1)
   - RCT-Folly (2024.11.18.00):
     - boost
     - DoubleConversion
@@ -1607,6 +1609,7 @@ DEPENDENCIES:
   - hermes-engine (from `../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - NitroGzip (from `../../react-native-nitro-gzip`)
   - NitroModules (from `../../node_modules/react-native-nitro-modules`)
+  - NVHTarGzip
   - RCT-Folly (from `../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
@@ -1671,6 +1674,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - NVHTarGzip
     - SocketRocket
 
 EXTERNAL SOURCES:
@@ -1825,6 +1829,7 @@ SPEC CHECKSUMS:
   hermes-engine: b417d2b2aee3b89b58e63e23a51e02be91dc876d
   NitroGzip: 24fc3063f59289291a0e011bc88372519f8b4cea
   NitroModules: 24a87ff968604843d38f28c8e1b878f6d70ec562
+  NVHTarGzip: 74cc227b902e5725900d37eb6d79b57e93005a73
   RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
   RCTDeprecation: b2eecf2d60216df56bc5e6be5f063826d3c1ee35
   RCTRequired: 78522de7dc73b81f3ed7890d145fa341f5bb32ea
