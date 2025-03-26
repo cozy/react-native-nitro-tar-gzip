@@ -54,7 +54,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - NitroModules (0.25.1):
+  - NitroModules (0.25.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1827,8 +1827,8 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: eb93e2f488219332457c3c4eafd2738ddc7e80b8
   hermes-engine: b417d2b2aee3b89b58e63e23a51e02be91dc876d
-  NitroGzip: 24fc3063f59289291a0e011bc88372519f8b4cea
-  NitroModules: 24a87ff968604843d38f28c8e1b878f6d70ec562
+  NitroGzip: 48ebe094da592e8ea0588170ee01609b74701e7f
+  NitroModules: 5cc92d3b0baf1124ed8136a015924eea03db912e
   NVHTarGzip: 74cc227b902e5725900d37eb6d79b57e93005a73
   RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
   RCTDeprecation: b2eecf2d60216df56bc5e6be5f063826d3c1ee35
@@ -1891,6 +1891,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: afd04ff05ebe0121a00c468a8a3c8080221cb14c
 
-PODFILE CHECKSUM: 264bf4e07e9924a233852062e736d8c16567706e
+PODFILE CHECKSUM: 0a449d8694ea5f0504a137b131d9b3cbb5723389
 
 COCOAPODS: 1.16.2
