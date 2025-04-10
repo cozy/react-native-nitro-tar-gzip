@@ -2,7 +2,7 @@ import * as RNFS from '@dr.pogodin/react-native-fs';
 
 import { getErrorMessage } from '../getErrorMessage';
 
-const githubBaseUri = 'https://github.com/cozy/react-native-nitro-tar-gzip/raw/refs/heads/feat/nitro_migration';
+const githubBaseUri = 'https://github.com/cozy/react-native-nitro-tar-gzip/raw/refs/heads/main';
 const downloadTarGzipUri = `${githubBaseUri}/example/testFiles/TarGzipItem.tar.gz`;
 const downloadTarUri = `${githubBaseUri}/example/testFiles/TarItem.tar`;
 const downloadGzipUri = `${githubBaseUri}/example/testFiles/GzipItem.md.gz`;
