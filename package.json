@@ -21,7 +21,69 @@
   ],
   "devDependencies": {
     "@jamesacarr/eslint-formatter-github-actions": "^0.2.0",
-    "@react-native-community/cli": "15.0.1"
+    "@react-native-community/cli": "15.0.1",
+    "@release-it/bumper": "^7.0.2",
+    "@release-it/conventional-changelog": "^10.0.0",
+    "release-it": "^18.1.2"
   },
-  "packageManager": "yarn@4.9.0"
+  "packageManager": "yarn@4.9.0",
+  "release-it": {
+    "npm": false,
+    "git": {
+      "commitMessage": "chore: Release ${version}",
+      "tagName": "v${version}",
+      "requireCleanWorkingDir": false
+    },
+    "github": {
+      "release": true
+    },
+    "hooks": {
+      "before:release": "yarn workspace NitroGzipExample pods && git add example/ios/Podfile.lock"
+    },
+    "plugins": {
+      "@release-it/bumper": {
+        "out": [
+          {
+            "file": "example/package.json",
+            "path": "version"
+          }
+        ]
+      },
+      "@release-it/conventional-changelog": {
+        "preset": {
+          "name": "conventionalcommits",
+          "types": [
+            {
+              "type": "feat",
+              "section": "✨ Features"
+            },
+            {
+              "type": "perf",
+              "section": "💨 Performance Improvements"
+            },
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes"
+            },
+            {
+              "type": "refactor",
+              "section": "🔄 Code Refactoring"
+            },
+            {
+              "type": "chore",
+              "section": "🏗️ Project configuration and build flow"
+            },
+            {
+              "type": "chore(deps)",
+              "section": "🛠️ Dependency Upgrades"
+            },
+            {
+              "type": "docs",
+              "section": "📚 Documentation"
+            }
+          ]
+        }
+      }
+    }
+  }
 }
