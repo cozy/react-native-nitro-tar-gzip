@@ -29,7 +29,7 @@ PODS:
   - hermes-engine (0.78.0):
     - hermes-engine/Pre-built (= 0.78.0)
   - hermes-engine/Pre-built (0.78.0)
-  - NitroGzip (0.0.1):
+  - NitroGzip (0.0.3):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1827,7 +1827,7 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: eb93e2f488219332457c3c4eafd2738ddc7e80b8
   hermes-engine: b417d2b2aee3b89b58e63e23a51e02be91dc876d
-  NitroGzip: bf421fe0a4f0311c9df640f038ba543ae9d67561
+  NitroGzip: 732dc19b465a8df11557b54ab4e82b2b411f5fed
   NitroModules: 5cc92d3b0baf1124ed8136a015924eea03db912e
   NVHTarGzip: 74cc227b902e5725900d37eb6d79b57e93005a73
   RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
