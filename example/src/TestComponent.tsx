@@ -6,7 +6,7 @@ import {
   View,
 } from 'react-native';
 
-import { unGzip, unGzipTar, unTar } from 'react-native-nitro-gzip';
+import { unGzip, unGzipTar, unTar } from 'react-native-nitro-tar-gzip';
 import { prepareTestFiles } from './file-system/download-test-files';
 import { listFilesOnDevice } from './file-system/list-files';
 import * as RNFS from '@dr.pogodin/react-native-fs';

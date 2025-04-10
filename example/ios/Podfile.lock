@@ -1607,7 +1607,7 @@ DEPENDENCIES:
   - fmt (from `../../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
-  - NitroGzip (from `../../react-native-nitro-gzip`)
+  - NitroGzip (from `../../react-native-nitro-tar-gzip`)
   - NitroModules (from `../../node_modules/react-native-nitro-modules`)
   - NVHTarGzip
   - RCT-Folly (from `../../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
@@ -1696,7 +1696,7 @@ EXTERNAL SOURCES:
     :podspec: "../../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec"
     :tag: hermes-2025-01-13-RNv0.78.0-a942ef374897d85da38e9c8904574f8376555388
   NitroGzip:
-    :path: "../../react-native-nitro-gzip"
+    :path: "../../react-native-nitro-tar-gzip"
   NitroModules:
     :path: "../../node_modules/react-native-nitro-modules"
   RCT-Folly:
@@ -1827,7 +1827,7 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: eb93e2f488219332457c3c4eafd2738ddc7e80b8
   hermes-engine: b417d2b2aee3b89b58e63e23a51e02be91dc876d
-  NitroGzip: 48ebe094da592e8ea0588170ee01609b74701e7f
+  NitroGzip: bf421fe0a4f0311c9df640f038ba543ae9d67561
   NitroModules: 5cc92d3b0baf1124ed8136a015924eea03db912e
   NVHTarGzip: 74cc227b902e5725900d37eb6d79b57e93005a73
   RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
