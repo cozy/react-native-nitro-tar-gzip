@@ -10498,9 +10498,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-nitro-gzip-workspace@workspace:.":
+"react-native-nitro-modules@npm:*, react-native-nitro-modules@npm:^0.25.2":
+  version: 0.25.2
+  resolution: "react-native-nitro-modules@npm:0.25.2"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/3d551a96b127730e6c6b45ea243231055682679f51c773661b36f76f1573284998a982fcbb146a65ff38ab341f54c075e9c5273459d87aa4fd3dabaebd44fcbd
+  languageName: node
+  linkType: hard
+
+"react-native-nitro-tar-gzip-workspace@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-nitro-gzip-workspace@workspace:."
+  resolution: "react-native-nitro-tar-gzip-workspace@workspace:."
   dependencies:
     "@jamesacarr/eslint-formatter-github-actions": "npm:^0.2.0"
     "@react-native-community/cli": "npm:15.0.1"
@@ -10510,9 +10520,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-native-nitro-gzip@workspace:react-native-nitro-gzip":
+"react-native-nitro-tar-gzip@workspace:react-native-nitro-tar-gzip":
   version: 0.0.0-use.local
-  resolution: "react-native-nitro-gzip@workspace:react-native-nitro-gzip"
+  resolution: "react-native-nitro-tar-gzip@workspace:react-native-nitro-tar-gzip"
   dependencies:
     "@react-native/eslint-config": "npm:0.78.0"
     "@types/jest": "npm:^29.5.12"
@@ -10533,16 +10543,6 @@ __metadata:
     react-native-nitro-modules: "*"
   languageName: unknown
   linkType: soft
-
-"react-native-nitro-modules@npm:*, react-native-nitro-modules@npm:^0.25.2":
-  version: 0.25.2
-  resolution: "react-native-nitro-modules@npm:0.25.2"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/3d551a96b127730e6c6b45ea243231055682679f51c773661b36f76f1573284998a982fcbb146a65ff38ab341f54c075e9c5273459d87aa4fd3dabaebd44fcbd
-  languageName: node
-  linkType: hard
 
 "react-native@npm:0.78.0":
   version: 0.78.0

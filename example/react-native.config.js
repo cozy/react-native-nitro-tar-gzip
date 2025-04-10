@@ -1,5 +1,5 @@
 const path = require('path');
-const pkg = require('../react-native-nitro-gzip/package.json');
+const pkg = require('../react-native-nitro-tar-gzip/package.json');
 
 /**
  * @type {import('@react-native-community/cli-types').Config}
@@ -7,7 +7,7 @@ const pkg = require('../react-native-nitro-gzip/package.json');
 module.exports = {
   dependencies: {
     [pkg.name]: {
-      root: path.join(__dirname, '..', 'react-native-nitro-gzip'),
+      root: path.join(__dirname, '..', 'react-native-nitro-tar-gzip'),
     },
   },
 };

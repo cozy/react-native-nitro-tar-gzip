@@ -1,7 +1,7 @@
 {
-  "name": "react-native-nitro-gzip",
+  "name": "react-native-nitro-tar-gzip",
   "version": "0.0.1",
-  "description": "react-native-nitro-gzip",
+  "description": "react-native-nitro-tar-gzip",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/commonjs/index.d.ts",
@@ -45,14 +45,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cozy/react-native-nitro-gzip.git"
+    "url": "git+https://github.com/cozy/react-native-nitro-tar-gzip.git"
   },
   "author": "Cozy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cozy/react-native-nitro-gzip/issues"
+    "url": "https://github.com/cozy/react-native-nitro-tar-gzip/issues"
   },
-  "homepage": "https://github.com/cozy/react-native-nitro-gzip#readme",
+  "homepage": "https://github.com/cozy/react-native-nitro-tar-gzip#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

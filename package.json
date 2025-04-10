@@ -1,22 +1,22 @@
 {
-  "name": "react-native-nitro-gzip-workspace",
-  "description": "react-native-nitro-gzip",
+  "name": "react-native-nitro-tar-gzip-workspace",
+  "description": "react-native-nitro-tar-gzip",
   "author": "Cozy",
   "license": "MIT",
-  "homepage": "https://github.com/cozy/react-native-nitro-gzip#readme",
+  "homepage": "https://github.com/cozy/react-native-nitro-tar-gzip#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cozy/react-native-nitro-gzip.git"
+    "url": "git+https://github.com/cozy/react-native-nitro-tar-gzip.git"
   },
   "bugs": {
-    "url": "https://github.com/cozy/react-native-nitro-gzip/issues"
+    "url": "https://github.com/cozy/react-native-nitro-tar-gzip/issues"
   },
   "private": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "workspaces": [
-    "react-native-nitro-gzip",
+    "react-native-nitro-tar-gzip",
     "example"
   ],
   "devDependencies": {

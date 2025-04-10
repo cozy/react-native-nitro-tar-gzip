@@ -12,7 +12,7 @@ The APIs are similare to `FWC1994/react-native-gzip` ones at the exception of th
 - `FWC1994/react-native-gzip`:
   - methods did return a string containing the destination path
   - methods did throw if errors occured
-- `react-native-nitro-gzip`:
+- `react-native-nitro-tar-gzip`:
   - methods do return an object containing success and failure info
   - methods do not throw if errors occur
 
@@ -31,7 +31,7 @@ This library requires:
 
 First install dependencies:
 ```sh
-npm install --save react-native-nitro-gzip react-native-nitro-modules
+npm install --save react-native-nitro-tar-gzip react-native-nitro-modules
 ```
 
 Then in your project's `Podfile` add:
@@ -43,7 +43,7 @@ NVHTarGzip requires `modular_headers` to be used by Swift package manager. If yo
 ## Usage
 
 ```js
-import { unGzip, unGzipTar, unTar } from 'react-native-nitro-gzip';
+import { unGzip, unGzipTar, unTar } from 'react-native-nitro-tar-gzip';
 
 const sourcePath = `${PATH}/xxx.gz`
 const targetPath = `${PATH}/xxx`
