@@ -1,5 +1,5 @@
 {
-  "name": "react-native-nitro-gzip",
+  "name": "react-native-nitro-gzip-workspace",
   "description": "react-native-nitro-gzip",
   "author": "Cozy",
   "license": "MIT",
@@ -12,8 +12,6 @@
     "url": "https://github.com/cozy/react-native-nitro-gzip/issues"
   },
   "private": true,
-  "scripts": {
-  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -23,5 +21,6 @@
   ],
   "devDependencies": {
     "@react-native-community/cli": "15.0.1"
-  }
+  },
+  "packageManager": "yarn@4.9.0"
 }
