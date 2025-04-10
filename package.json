@@ -1,6 +1,6 @@
 {
   "name": "react-native-nitro-tar-gzip-workspace",
-  "description": "react-native-nitro-tar-gzip",
+  "description": "A React Native Nitro module for decompressing Gzip and Tar files.",
   "author": "Cozy",
   "license": "MIT",
   "homepage": "https://github.com/cozy/react-native-nitro-tar-gzip#readme",
@@ -85,5 +85,8 @@
         }
       }
     }
+  },
+  "scripts": {
+    "release": "bash ./scripts/release.sh"
   }
 }
