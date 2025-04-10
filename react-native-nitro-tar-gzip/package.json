@@ -1,7 +1,7 @@
 {
   "name": "react-native-nitro-tar-gzip",
   "version": "0.0.1",
-  "description": "react-native-nitro-tar-gzip",
+  "description": "A React Native Nitro module for decompressing Gzip and Tar files.",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/commonjs/index.d.ts",
@@ -35,7 +35,8 @@
     "lint-ci": "eslint \"**/*.{js,ts,tsx}\" -f @jamesacarr/github-actions",
     "typescript": "tsc",
     "specs": "yarn typescript && nitro-codegen --logLevel=\"debug\"",
-    "build": "yarn typescript && bob build"
+    "build": "yarn typescript && bob build",
+    "release": "release-it"
   },
   "keywords": [
     "react-native",
@@ -69,6 +70,7 @@
     "react-native": "0.78.0",
     "react-native-builder-bob": "^0.40.5",
     "react-native-nitro-modules": "*",
+    "release-it": "^18.1.2",
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
@@ -144,7 +146,8 @@
   },
   "release-it": {
     "npm": {
-      "publish": true
+      "publish": true,
+      "skipChecks": true
     },
     "git": false,
     "github": {
@@ -153,6 +156,9 @@
     "hooks": {
       "before:init": "yarn typescript && yarn lint",
       "after:bump": "yarn build"
+    },
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org"
     }
   }
 }
