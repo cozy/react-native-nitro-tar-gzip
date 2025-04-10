@@ -141,5 +141,18 @@
       ],
       "typescript"
     ]
+  },
+  "release-it": {
+    "npm": {
+      "publish": true
+    },
+    "git": false,
+    "github": {
+      "release": false
+    },
+    "hooks": {
+      "before:init": "yarn typescript && yarn lint",
+      "after:bump": "yarn build"
+    }
   }
 }
