@@ -5762,7 +5762,7 @@ react-native-nitro-modules@*, react-native-nitro-modules@^0.25.2:
   version "0.25.2"
 
 "react-native-nitro-tar-gzip@file:/Users/ldoppea/Documents/cozy/dev/github/cozy-react-native-nitro-gzip/react-native-nitro-tar-gzip":
-  version "0.0.1"
+  version "0.0.3"
   resolved "file:react-native-nitro-tar-gzip"
 
 react-native@*, react-native@0.78.0:
