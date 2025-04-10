@@ -1,4 +1,4 @@
-# React Native Nitro Gzip
+# React Native Nitro TarGzip
 
 A React Native Nitro module for decompressing Gzip and Tar files.
 
